@@ -195,7 +195,7 @@ elif selected_artist is not None and len(artists) > 0:
                     track_id=track['id']
                     col2.write(track_id)
                     def feature_requested():
-                                st.write(track['id'])
+                                #st.write(track['id'])
                                
                                 track_features  = sp.audio_features(track_id) 
                                 df = pd.DataFrame(track_features, index=[0])
