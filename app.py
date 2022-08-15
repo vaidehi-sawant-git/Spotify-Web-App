@@ -1,4 +1,3 @@
-from operator import index
 import streamlit as st
 import spotipy 
 import pandas as pd
