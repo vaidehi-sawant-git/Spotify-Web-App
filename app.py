@@ -1,6 +1,6 @@
 from operator import index
 import streamlit as st
-import spotipy as sp
+import spotipy 
 import pandas as pd
 from spotipy.oauth2 import SpotifyClientCredentials
 import polarplotting
